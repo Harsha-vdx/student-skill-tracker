@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+<h2>Welcome, <span id="user"></span></h2>
+
+<h3>Add Skill</h3>
+
+<input type="text" id="skill" placeholder="Skill name">
+<input type="number" id="level" placeholder="Level 1-100">
+
+<button onclick="addSkill()">Add Skill</button>
+
+<h3>Your Skills</h3>
+
+<ul id="skillList"></ul>
+
+<br>
+
+<button onclick="logout()">Logout</button>
+
+<script src="js/app.js"></script>
+
+</div>
+</body>
+</html>
